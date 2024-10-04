@@ -12,7 +12,7 @@ product_returns = pd.read_csv('blank-app/data/product_return.csv')  # cleaned pr
 profit = pd.read_csv('/blank-app/data/profit.csv') # cleaned profit data
 coment = pd.read_csv('blank-app/data/coment.csv')  # cleaned low-score comments
 delivery_delay = pd.read_csv('blank-app/data/delivery_delay.csv') # cleaned delivery delay data
-avg_review_score_per_product = pd.read_csv('blank-app/data/agv_review_score_per_product.csv')  # cleaned review score data
+avg_review_score_per_product = pd.read_csv('data/agv_review_score_per_product.csv')  # cleaned review score data
 
 # Dashboard Title
 st.title("Dashboard E-commerce")
