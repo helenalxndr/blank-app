@@ -10,7 +10,7 @@ st.set_page_config(page_title="Dashboard E-commerce", layout="wide")
 
 product_returns = pd.read_csv('data/product_return.csv')  # cleaned product return data
 profit = pd.read_csv('data/profit.csv') # cleaned profit data
-coment = pd.read_csv('\data/coment.csv')  # cleaned low-score comments
+coment = pd.read_csv('data/coment.csv')  # cleaned low-score comments
 delivery_delay = pd.read_csv('data/delivery_delay.csv') # cleaned delivery delay data
 avg_review_score_per_product = pd.read_csv('data/agv_review_score_per_product.csv')  # cleaned review score data
 
